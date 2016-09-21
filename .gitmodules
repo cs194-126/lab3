@@ -1,0 +1,6 @@
+[submodule "mbed-scons"]
+	path = mbed-scons
+	url = https://github.com/ducky64/mbed-scons.git
+[submodule "mbed"]
+	path = mbed
+	url = https://github.com/ARMmbed/mbed-os.git
