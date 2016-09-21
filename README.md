@@ -113,6 +113,12 @@ This procedure should take about **1-1.5 hours** total to complete.
 
 ### Programming
 
+Plug the Nucleo into the sockets on your (freshly soldered) PCB.
+
+> **Note**: Don't plug in the Nucleo backwards. The micro-USB port should be
+> facing to your left. See the picture at the top of this lab document for more
+> details.
+
 Clone this repository with the source code and build system, and [build and run](https://github.com/cs194-126/lab1#build--sanity-check)
 the code on the Nucleo as described in the first lab.
 
@@ -120,11 +126,8 @@ the code on the Nucleo as described in the first lab.
 git clone --recursive https://github.com/cs194-126/lab3.git
 ```
 
-> **Note**: Don't plug in the Nucleo backwards. The micro-USB port should be
-> facing to your left. See the picture at the top of this lab document for more
-> details.
-
-When you have flashed the code onto the Nucleo, you should
+When you have flashed the code onto the Nucleo, you should see the LEDs react
+when you push the button.
 
 > **Note**: the LEDs turn on when the pin is driven low (since the GPIO is
 > connected to the ground side of the LED) and the switch goes to 0 when it is
